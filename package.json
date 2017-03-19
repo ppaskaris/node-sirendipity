@@ -1,0 +1,34 @@
+{
+  "name": "sirendipity",
+  "version": "1.0.0",
+  "description": "Client for consuming APIs that produce Siren hypermedia representations. Edit",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint --format=codeframe --ignore-path .gitignore .",
+    "test": "tap test.js --reporter=classic --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppaskaris/node-sirendipity.git"
+  },
+  "keywords": [
+    "siren",
+    "hypermedia",
+    "client"
+  ],
+  "author": "Patrick Paskaris <patrick@paskaris.gr>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ppaskaris/node-sirendipity/issues"
+  },
+  "homepage": "https://github.com/ppaskaris/node-sirendipity#readme",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-hapi": "^10.0.0",
+    "tap": "^10.3.0"
+  },
+  "dependencies": {
+    "node-fetch": "^1.6.3",
+    "siren-parser": "^5.1.1"
+  }
+}
